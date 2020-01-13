@@ -1,3 +1,5 @@
+package BlankJGiven;
+
 import com.tngtech.jgiven.Stage;
 import com.tngtech.jgiven.annotation.AfterScenario;
 import com.tngtech.jgiven.annotation.Quoted;

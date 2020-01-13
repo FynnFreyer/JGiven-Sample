@@ -1,4 +1,4 @@
-package Steps;
+package BlankJGiven.Steps;
 
 import com.tngtech.jgiven.Stage;
 import com.tngtech.jgiven.annotation.AfterScenario;

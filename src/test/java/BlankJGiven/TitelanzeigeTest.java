@@ -1,12 +1,13 @@
-import Steps.Gegeben;
-import Steps.Wenn;
-import Steps.Dann;
+package BlankJGiven;
 
+
+import BlankJGiven.Steps.Dann;
+import BlankJGiven.Steps.Gegeben;
+import BlankJGiven.Steps.Wenn;
 import com.tngtech.jgiven.junit.ScenarioTest;
-
 import org.junit.Test;
 
-public class TitelanzeigeTest extends ScenarioTest<Gegeben, Wenn, Dann>{
+public class TitelanzeigeTest extends ScenarioTest<Gegeben, Wenn, Dann> {
 
     @Test
     public void der_Titel_ändert_sich() {
